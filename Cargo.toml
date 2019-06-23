@@ -1,0 +1,13 @@
+[package]
+name = "ctrlc_fnonce"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+description = "Wrapper for ctrlc to execute a FnOnce and exit the process upon Ctrl-C."
+categories = ["concurrency"]
+keywords = ["ctrlc", "signal", "SIGINT", "FnOnce"]
+repository = "https://github.com/SOF3/ctrlc_fnonce"
+license = "Apache-2.0"
+
+[dependencies]
+ctrlc = "3.1"
